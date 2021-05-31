@@ -191,7 +191,9 @@ img {
     padding-bottom: 3.25rem;
 }
 
-
+.skill-list{
+    justify-content:flex-start;
+}
 
 ol>li {
     margin-bottom: 20px;
