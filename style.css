@@ -1,0 +1,221 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* css reset end  */
+
+/* main css start  */
+
+.main{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.name {
+  margin-top: 40px;
+  font-size: 80px;
+  line-height: 95px;
+  border-bottom: 2px solid #000;
+  padding-bottom: 1.5rem;
+}
+
+.title{
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #000;
+    padding-bottom: 1.5rem;
+}
+.title2{
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid #000;
+    padding-bottom: 1.5rem;
+    
+}
+
+.title3{
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: 600;
+    border-bottom: 2px solid #fff;
+    max-width: 993px;
+    margin: 0 auto;
+    margin-bottom: 2.5rem;
+}
+
+.skill{
+    background-color: #415165;
+    color: #fff;
+    padding-top: 1.5rem;
+    margin-top: 5rem;
+    padding-bottom: 3.25rem;
+}
+
+
+
+ol>li {
+    margin-bottom: 20px;
+    text-align: center;
+    
+}
+
+.avatar{
+    margin: 3rem 0;
+}
+
+p span{
+    color: #A00404;
+    font-weight: 600;
+}
+
+.intern{
+    max-width: 642px;
+}
+
+.footer{
+    background-color: #415165;
+    color: #fff;
+    padding-top: 1.5rem;
+    margin-top: 5rem;
+    padding-bottom: 3.25rem;
+}
